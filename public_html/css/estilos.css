@@ -1,0 +1,20 @@
+div {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+#original, .transformado {
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-bottom: 100px;
+      border: 4px solid red;
+}
+
+.transformado {
+  /*transform: rotatez(45deg);*/
+/*    transform: rotatex(45deg);
+      transform: rotateY(45deg);*/
+transform: scale(3,3)
+}
